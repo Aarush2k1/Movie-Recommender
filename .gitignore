@@ -1,0 +1,5 @@
+/Movie-Recommender
+/heroku-deploy
+/Kaggle-Datasets
+*.csv
+/static/fonts
