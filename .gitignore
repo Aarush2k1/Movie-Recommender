@@ -3,3 +3,4 @@
 /Kaggle-Datasets
 *.csv
 /static/fonts
+*.env
