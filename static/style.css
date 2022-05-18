@@ -1,0 +1,139 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+body {
+    height: 100%;
+    background-color: #f7f7f7;
+    font-weight: 400;
+    color: #010b26;
+}
+
+ul {
+    list-style: none;
+}
+
+h2,
+h3 {
+    font-family: 'Sucrose Bold Two';
+    src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/sucrose.woff2") format("woff2");
+}
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: #6ABCEA;
+}
+
+/* #card-movie-wrapper:hover {
+    -webkit-transition: all 250ms ease-in-out;
+    -moz-transition: all 250ms ease-in-out;
+    transition: all 250ms ease-in-out;
+    bottom: 60px;
+    right: 40px;
+
+} */
+
+.trailer-btn {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: transparent;
+    border: none;
+    bottom: 0;
+    color: #aac8ca;
+    cursor: pointer;
+    font-size: 14px;
+    margin: 0;
+    outline: none;
+    padding: 0;
+    position: absolute;
+}
+
+.trailer-btn:before {
+    content: "Watch Trailer";
+}
+
+.trailer-btn:after {
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    border-bottom: 6px solid transparent;
+    border-left: 6px solid #dce9e9;
+    border-top: 6px solid transparent;
+    content: "";
+    height: 0;
+    margin-right: 6px;
+    position: absolute;
+    right: 100%;
+    top: 50%;
+    width: 0;
+}
+
+.is-playing:before {
+    content: "Hide Trailer";
+}
+
+.is-playing:after {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    margin-top: -6px;
+}
+
+.card-player {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.card-movie--playing .card-player {
+    height: 100%;
+}
+
+.card-player #responsive-player {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+
+@media (max-width: 768px) {
+    .card-player {
+        overflow: hidden;
+        width: 100%;
+    }
+
+    .card-player #responsive-player {
+        position: relative;
+    }
+}
+
+#rating {
+    padding: 2px;
+    bottom: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 30px;
+    position: absolute;
+    right: 10px;
+    text-align: center;
+    width: 34px;
+}
+
+#rating:after {
+    border-radius: 100%;
+    border: 2px solid #1e7200;
+    content: '';
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
