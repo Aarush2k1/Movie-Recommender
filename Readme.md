@@ -11,6 +11,7 @@ Sentiment-analysis dataset: https://www.kaggle.com/datasets/columbine/imdb-datas
 
 Content-based similarity:
 Cosine Similarity
+Collaborative Filtering
 
 ## Backend:
 
