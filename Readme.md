@@ -1,8 +1,8 @@
-# Movie Recoomendation system
+# Movie Recommendation system
 
 ## Dataset:
 
-Datset scarped from IMDB sorted by number of votes from 1991 to 2022
+Datset scrapped from IMDB sorted by number of votes from 1991 to 2022: https://github.com/Aarush2k1/Movie-Recommender/blob/master/datasets-generation/imdb_scraping.ipynb
 
 Collaborative datset: https://www.kaggle.com/rounakbanik/the-movies-dataset?select=ratings_small.csv
 
